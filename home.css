@@ -1,0 +1,90 @@
+img{
+  display: flex;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+
+}
+body{
+  background: #2c3331;
+  font-family: sans;
+
+}
+blockquote{
+padding :15px;
+margin: 20px;
+position: relative;
+}
+.image .overlay {
+display: flex;
+justify-content: flex-start;
+position: absolute ;
+bottom: 0;
+padding-left: 25px;
+padding-top: 15px;
+width: 100%;
+color: white;
+font-size: 20px;
+z-index: 5
+}
+.overlay{
+height: 90px;
+}
+.image .overlay::before {
+content: "";
+background: #ffff;
+height: 100%;
+width: 100%;
+z-index: 1;
+position: absolute;
+left: 0;
+bottom: -150px;
+z-index: -2;
+opacity: 0.5;
+transition: all 0.3s ease-out
+}
+
+.portrait{
+float: right;
+margin: 25px;
+}
+
+.Landscape{
+float: left;
+margin : 25px;
+}
+
+.Food{
+float: right ;
+margin: 25px;
+}
+
+h4{
+color : white;
+text-align: justify;
+}
+h3{
+color : white;
+text-align: justify;
+}
+.wed{
+float: left;
+margin: 25px;
+}
+.street{
+float: right;
+margin: 25px;
+}
+footer{
+width: 100%;
+height : 150px;
+background: #bab8b3;
+position: relative;
+margin-top: 200px;
+color: #2b2b2a;
+display: flex;
+align-content:center;
+justify-content: center;
+padding: 50px;
+}
+  
